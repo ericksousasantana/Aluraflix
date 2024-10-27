@@ -16,11 +16,44 @@ header{
     padding: 20px;
 }
 
-.video{
-    display: inline-block;
-    margin: 20px;
+#video{
+    display: flex;
+    justify-content: center;
+    padding: 25px 25px 100px 25px;
 }
 
-.descricao{
-    display: inline-block;
+.texto{
+    margin-right: 5%;
+    padding-top: 50px;
+}
+.texto > h1{
+    font-size: 2em;
+}
+
+#videos{
+    background-color: rgba(255, 0, 0, 0.303);
+    padding: 20px;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    box-shadow: inset 0px 0px 20px 12px rgba(65, 65, 65, 0.337);
+    background-color: black;
+    padding: 5px;
+}
+#videos > h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+a{
+    height: 200px;
+}
+img{
+    height: 200px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
 }
